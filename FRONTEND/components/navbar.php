@@ -1,4 +1,8 @@
-<?php include 'dependencies.html'; ?>
+<?php include 'dependencies.html'; 
+include "../BACKEND/MVC/controller.php";
+$c = new Controller();
+session_start();?>
+
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="position:sticky; top:0; z-index: 2">
   <a class="navbar-brand" href="#">Amazon</a>

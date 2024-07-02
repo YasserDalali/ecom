@@ -15,8 +15,7 @@
 <body>
 
 <?php include "components/navbar.php";
-require "../BACKEND/MVC/controller.php";
-$c = new Controller();
+
 $prodInfo = $c->collectProductData($_GET['name']);?>
 
 
